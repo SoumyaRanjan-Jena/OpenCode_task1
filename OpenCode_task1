@@ -1,0 +1,24 @@
+1.Explain very briefly the difference between Git and GitHub.
+--> Starting with Git,it is an open source , distributed version-control system which is used for tracking modifications in the source code and reacting upon it such as adding
+it to the staging area or commiting it. Git is a tool which manages our local directories , helps add any change to it and commit it to a reopository. Whereas Github is a 
+cloud based service which helps to store the Git repositories online. With the help of Github's cloud storage we can add multipe repositories and files on it and work on remote
+repositories as well. Github allows to collaborate on different repositories present on the web by functions such as forking and cloning. The major difference is , Git is a tool which manages and modifies repositories,
+and Github is the platform on which we can work and collaborate on those repositiories.
+Git is a command line tool , but Github is a Graphical User Interface.
+
+2.Explain very briefly any 5 basic git commands.
+--> a)git status: It shows the current status of the files in the directory we are currently working on , such as names of files which are modified,or the files which are
+in the staging area or if all files have been commited.
+b)git commit : It commits the file in the staging area.
+c)git branch: It shows the list of all the branches . A "*" appears next to the branch name that is currently active.
+d)git clone[url] : It clones an entire repository from the web location as specified by the url to the local computer.
+e)git merge[branch]: It merges the specified branch to the current active branch if they are compatible.
+
+3.How to make a Pull Request?
+--> Pull requests are the way we contribute to group projects or open source projects.The steps in a pull request are:
+a)Forking: We fork the repository in which we wish to make a pull request, to bring an independent copy of that repository in our account.
+b)cloning: After getting the repository, we clone it to our local computer so as to work on it.
+c)We may create a branch on which we continue our work.
+d)After our work is done , we commit the changes we made.
+e)Then we push those changes to Github using the command : git push origin [Branch Name].
+f)Then we go to Github and click on  “Compare & pull request” . Providing the necessary details , we can submit the pull request.
